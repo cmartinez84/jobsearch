@@ -1,0 +1,55 @@
+*{
+    font-size: 2em;
+}
+body{
+    background: url("http://www.zebrapen.com/wp-content/themes/zebra/images/zen/zebra--steel.png") bottom left no-repeat;
+    background-attachment: fixed;
+
+}
+h3{
+    font-family: "Indie Flower";
+    font-size: 5em;
+}
+form{
+    background: pink;
+    border-radius: 10px;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    font-family: "Comic Sans MS";
+    text-shadow: 5px 5px 5px green;
+    background: pink;
+
+    min-height: 600px;
+}
+input:focus{
+    transform: translate(20px, 44px);
+    transform: rotate(120deg);
+    transition: 15s ease-in;
+    color: pink;
+}
+input{
+    color: white;
+    font-weight: bold;
+
+}
+.well{
+    background: url("http://uberpunch.uberpunch.netdna-cdn.com/wp-content/uploads/2015/06/0561f1247f52521aff9ad50f2a2e8c2d.600x.gif") center center no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: left;
+    max-width: 50%;
+    margin: 0 auto;
+    min-height: 600px;
+}
+
+.btn{
+    background: url("https://images-cdn.moviepilot.com/image/upload/c_limit,h_1200,q_auto,w_960/xaqr4ukpsaev98k9ximu.gif") center center no-repeat !important;
+    background-size: cover !important;
+}
+input:focus{
+    background: url("http://www.netanimations.net/Animated-moving-clip-art-picture-of-heat-and-flame.gif") bottom  no-repeat;
+    background-size: cover;
+    box-shadow: 5px 20px 4px red;
+    outline: 10px black;
+}
